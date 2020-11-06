@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fix for date</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/form_style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="img/f.ico" type="image/png">
+</head>
+<body>
+
+
+
+<form action="" method="GET">
+	<p id="headd"><strong>Set a date to see a catoctor</strong></p>
+	<div class="tex_field">
+		<label for="PatientName">Your name:</label><br>
+		<input type="text" placeholder="PatientName" name="PatientName" id="PatientName"> <br>
+	</div>
+
+	<div id="d_date">
+		<p><label for="date">Choose date:</label><br>
+		<input type="date" name="form-cont" id="date"  value="2019-12-12"></p><br>
+	</div>
+
+	<div>
+		<label><input type="radio" name="HavingCat" value="AlredyHave">I have my own cat</label><br>
+		<label><input type="radio" name="HavingCat" value="DontHave">I don't have cats</label>
+	</div>
+
+	<div id="select_div">
+    	<p><select class="custom_select" name="catoctor"> 
+    		<option disabled selected>Choose a doctor</option>
+    		<option value="Roberto_Tigger">Roberto Tigger</option>
+    		<option value="Philip_Puss">Philip Puss</option>
+    		<option value="Lala_Simba">Lala Simba</option>
+   		 </select></p>	
+     </div>
+
+     <div>     
+     	<label><input type="checkbox" name="visited" value="visited">It is not my first visit</label><br>
+	</div>
+
+     <div>
+     	  <label for="comment"><p>Your comment</p></label>
+   		  <textarea name="comment" id="comment"></textarea> <br>
+     </div>
+
+	<input type="submit" name="submit">
+	<input type="reset" name="reset">
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+</html>
